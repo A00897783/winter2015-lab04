@@ -65,12 +65,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	/*'username' => 'root',
-	'password' => '',*/
-        'username' => 'cake_user',
-	'password' => 'cake_pass',
-	'database' => 'comp4711',
+	'hostname' => 'localhost'
+	'username' => 'root',
+	'password' => '',
+	'database' => '',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
